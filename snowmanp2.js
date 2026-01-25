@@ -15,7 +15,7 @@ function draw() {
   ellipse(600, 700, 900, 300);
   ellipse(50, 40, 50, 50);
   ellipse(900, 70, 50, 50);
-  ellipse(600, 90, 50, 50);
+  ellipse(640, 90, 50, 50);
   ellipse(160, 150, 50, 50);
   ellipse(980, 170, 50, 50);
   ellipse(300, 350, 50, 50);
@@ -26,9 +26,9 @@ function draw() {
   ellipse(980, 370, 50, 50);
   ellipse(280, 460, 50, 50);
   //legs
-  fill("#d5a0f2");
+  fill("#eddaff");
   strokeWeight(10);
-  stroke("#652687");
+  stroke("#5503a4");
   //left leg (x from the left, y from the bottom, width, optional height)
   ellipse(350, 600, 200, 100);
   //right leg
@@ -39,31 +39,48 @@ function draw() {
   ellipse(500, 200, 200);
   //hat brim
   stroke("#0094ff");
-  strokeWeight(25);
+  strokeWeight(10);
   line(400, 120, 600, 120);
   //hat body
   fill("#a0d0f2");
-  quad(400, 50, 600, 50, 550, 120, 450, 120);
+  quad(390, 55, 610, 55, 580, 120, 420, 120);
+  //cheeks
+  stroke("#d5a6bd");
+  strokeWeight(30);
+  point(430, 210);
+  point(530, 210);
   //eyes
   stroke("#444444");
   strokeWeight(50);
   point(450, 200);
   point(505, 200);
-  //nose
-  stroke("#ff8200");
+  stroke("#eeeeee");
   strokeWeight(25);
+  point(459, 193);
+  point(513, 193);
+  stroke("#eeeeee");
+  strokeWeight(15);
+  point(497, 210);
+  point(440, 210);
+  //nose
+  stroke("#e89f51ff");
+  strokeWeight(35);
   point(475, 230);
+  strokeWeight(25);
+  point(465, 235);
+  strokeWeight(20);
+  point(455, 245);
   //mouth
   noFill();
   stroke("#444444");
   strokeWeight(5);
-  arc(500, 200, 110, 120, 0, HALF_PI);
+  arc(490, 230, 90, 90, 0, HALF_PI);
   //buttons
   stroke("#ffaff1");
-  strokeWeight(35);
-  point(475, 400);
+  strokeWeight(45);
+  point(475, 390);
   point(475, 450);
-  point(475, 500);
+  point(475, 520);
   //left arm
   stroke("#744700");
   strokeWeight(10);
