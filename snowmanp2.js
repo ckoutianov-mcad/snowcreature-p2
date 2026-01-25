@@ -2,10 +2,29 @@ let grid = undefined;
 function setup() {
   createCanvas(1000, 800);
   background("#dbeeff");
-  grid = loadImage("");
+  grid = loadImage("img/100px_grid.png");
 }
 function draw() {
   background(grid);
+  //background
+  fill("#fff");
+  strokeWeight(3);
+  stroke("#bcbcbc");
+  ellipse(50, 700, 900, 300);
+  ellipse(900, 700, 400, 300);
+  ellipse(600, 700, 900, 300);
+  ellipse(50, 40, 50, 50);
+  ellipse(900, 70, 50, 50);
+  ellipse(600, 90, 50, 50);
+  ellipse(160, 150, 50, 50);
+  ellipse(980, 170, 50, 50);
+  ellipse(300, 350, 50, 50);
+  ellipse(50, 40, 50, 50);
+  ellipse(800, 150, 50, 50);
+  ellipse(700, 500, 50, 50);
+  ellipse(100, 410, 50, 50);
+  ellipse(980, 370, 50, 50);
+  ellipse(280, 460, 50, 50);
   //legs
   fill("#d5a0f2");
   strokeWeight(10);
