@@ -1,2 +1,3 @@
-# snowman-p2
+### Snow Creature assignment for Programming for the Web course (Part II)
+
 
