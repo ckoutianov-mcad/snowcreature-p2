@@ -1,4 +1,5 @@
 let grid = undefined;
+let fill1 = prompt("What is your favorite snow color?", "white");
 function setup() {
   createCanvas(1000, 800);
   background("#dbeeff");
@@ -7,12 +8,15 @@ function setup() {
 function draw() {
   background(grid);
   //background
-  fill("#fff");
+  fill(fill1);
   strokeWeight(3);
   stroke("#bcbcbc");
-  ellipse(50, 700, 900, 300);
-  ellipse(900, 700, 400, 300);
-  ellipse(600, 700, 900, 300);
+  ellipse(600, 600, 900, 300);
+  ellipse(40, 650, 900, 300);
+  ellipse(900, 700, 700, 300);
+  ellipse(600, 800, 900, 300);
+  
+  //snow
   ellipse(50, 40, 50, 50);
   ellipse(900, 70, 50, 50);
   ellipse(640, 90, 50, 50);
